@@ -1,10 +1,10 @@
 # HTML and CSS Website Design – Case Studies
 
-## 📌 About the Project
+##  About the Project
 
 This project contains three website design case studies developed using **HTML5 and CSS3**. The main purpose is to understand webpage structure, styling, layouts, images, forms, and responsive website design through practical implementation.
 
-## 🎯 Objectives
+##  Objectives
 
 - To understand the basics of HTML and CSS.
 - To create attractive and user-friendly webpages.
@@ -12,9 +12,9 @@ This project contains three website design case studies developed using **HTML5 
 - To design forms with proper labels.
 - To develop responsive website interfaces.
 
-## 📚 Case Studies
+## 📚Case Studies
 
-### 1. Online Food Ordering Website Design
+###  Online Food Ordering Website Design
 
 Design a food ordering interface with restaurant details, menu categories, food images, prices, special offers, customer reviews, and order buttons. Use card layouts, attractive backgrounds, and mobile-friendly navigation.
 
@@ -27,7 +27,7 @@ Design a food ordering interface with restaurant details, menu categories, food 
 - Order buttons
 - Responsive navigation
 
-### 2. Bakery and Cake Shop Website
+###  Bakery and Cake Shop Website
 
 Create a website for a bakery displaying cakes, pastries, cookies, custom cake designs, product prices, seasonal offers, and store contact details. Use a visually appealing color scheme and image galleries.
 
@@ -40,7 +40,7 @@ Create a website for a bakery displaying cakes, pastries, cookies, custom cake d
 - Image gallery
 - Store contact details
 
-### 3. Doctor Appointment Booking Interface
+###  Doctor Appointment Booking Interface
 
 Design a website displaying doctor profiles, specializations, consultation timings, available appointment slots, and patient registration fields. Focus on clear form labels and easy navigation.
 
