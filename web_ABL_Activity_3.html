@@ -1,0 +1,268 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HealthCare Plus</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+        }
+
+        header {
+            background-color: #168aad;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        nav {
+            background-color: #075985;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        .welcome {
+            text-align: center;
+            background-color: #d9f0ff;
+            padding: 45px 15px;
+        }
+
+        .welcome h2 {
+            color: #075985;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: #168aad;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            margin-top: 12px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .heading {
+            text-align: center;
+            color: #075985;
+            margin: 30px;
+        }
+
+        .doctors {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            width: 230px;
+            padding: 15px;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px #ccc;
+        }
+
+        .card img {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .card h3 {
+            color: #075985;
+            margin: 10px;
+        }
+
+        .card p {
+            margin: 8px;
+        }
+
+        .appointment {
+            background-color: #d9f0ff;
+            padding: 30px 15px;
+        }
+
+        .appointment h2 {
+            text-align: center;
+            color: #075985;
+            margin-bottom: 20px;
+        }
+
+        form {
+            background-color: white;
+            max-width: 450px;
+            margin: auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px #ccc;
+        }
+
+        label {
+            display: block;
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 6px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        form button {
+            width: 100%;
+        }
+
+        .contact {
+            text-align: center;
+            padding: 25px;
+            line-height: 1.8;
+        }
+
+        footer {
+            background-color: #075985;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        @media (max-width: 600px) {
+            nav a {
+                display: inline-block;
+                margin: 8px;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>HealthCare Plus</h1>
+        <p>Your Health, Our Priority</p>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#appointment">Appointment</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section class="welcome">
+        <h2>Welcome to HealthCare Plus</h2>
+        <p>Get the best medical care from experienced doctors.</p>
+        <a href="#appointment">
+            <button>Book Appointment</button>
+        </a>
+    </section>
+
+    <h2 class="heading" id="doctors">Our Doctors</h2>
+
+    <div class="doctors">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400" alt="Doctor">
+            <h3>Dr. Rahul</h3>
+            <p>Cardiologist</p>
+            <p>Time: 9 AM - 1 PM</p>
+        </div>
+
+        <div class="card">
+            <img src="https://plus.unsplash.com/premium_photo-1682089872205-dbbae3e4ba32?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3Dw=400" alt="Doctor">
+            <h3>Dr. Priya</h3>
+            <p>Dentist</p>
+            <p>Time: 10 AM - 2 PM</p>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=400" alt="Doctor">
+            <h3>Dr. Arjun</h3>
+            <p>Neurologist</p>
+            <p>Time: 4 PM - 8 PM</p>
+        </div>
+
+    </div>
+
+    <section class="appointment" id="appointment">
+
+        <h2>Book Your Appointment</h2>
+
+        <form>
+
+            <label>Patient Name:</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Age:</label>
+            <input type="number" placeholder="Enter your age">
+
+            <label>Phone Number:</label>
+            <input type="tel" placeholder="Enter phone number">
+
+            <label>Email:</label>
+            <input type="email" placeholder="Enter email">
+
+            <label>Select Doctor:</label>
+            <select>
+                <option>Choose Doctor</option>
+                <option>Dr. Rahul - Cardiologist</option>
+                <option>Dr. Priya - Dentist</option>
+                <option>Dr. Arjun - Neurologist</option>
+            </select>
+
+            <label>Appointment Date:</label>
+            <input type="date">
+
+            <label>Available Time:</label>
+            <select>
+                <option>Select Time</option>
+                <option>9:00 AM</option>
+                <option>11:00 AM</option>
+                <option>2:00 PM</option>
+                <option>4:00 PM</option>
+            </select>
+
+            <button type="submit">Book Appointment</button>
+
+        </form>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Address: Main Road, Vijayawada</p>
+        <p>Phone: 9876543210</p>
+        <p>Email: healthcare@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>© 2026 HealthCare Plus. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
