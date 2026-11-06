@@ -53,14 +53,14 @@ Design a website displaying doctor profiles, specializations, consultation timin
 - Clear form labels
 - Easy navigation
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **HTML5:** Used to create the structure of webpages.
 - **CSS3:** Used for colors, layouts, styling, and responsive design.
 - **Visual Studio Code:** Used as the code editor.
 - **Google Chrome:** Used to run and test the webpages.
 
-## 📁 Project Structure
+##  Project Structure
 
 ```text
 Website-Design-Assignment/
@@ -86,7 +86,7 @@ Website-Design-Assignment/
 
 *Note: The folder and file names above are suggested. Adjust them to match your actual project files.*
 
-## ▶️ How to Run the Projects
+## How to Run the Projects
 
 1. Download or clone this repository.
 2. Open the project folder in Visual Studio Code.
@@ -95,11 +95,11 @@ Website-Design-Assignment/
 5. Select **Open with Live Server**, or open the file directly in Google Chrome.
 6. View the completed webpage.
 
-## 📸 Screenshots
+##  Screenshots
 
 Add screenshots of all three completed webpages in the `Screenshots` folder.
 
-## 📖 Conclusion
+##  Conclusion
 
 Through these three case studies, I gained practical knowledge of HTML and CSS. I learned how to create different types of webpages using images, cards, navigation menus, buttons, and forms. This project helped me improve my basic web development and webpage designing skills.
 
